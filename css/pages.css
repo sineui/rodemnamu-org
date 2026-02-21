@@ -205,6 +205,28 @@
   }
 }
 
+/* --- Page Hero Compact + Photo (공통) --- */
+.page-hero--compact {
+  padding: var(--space-md) 0;
+}
+
+@media (min-width: 768px) {
+  .page-hero--compact {
+    padding: var(--space-lg) 0;
+  }
+}
+
+.page-hero-photo {
+  padding-top: var(--space-md);
+  line-height: 0;
+}
+
+.page-hero-photo__img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+}
+
 /* --- About Page --- */
 .about-vision {
   font-size: 1.125rem;
