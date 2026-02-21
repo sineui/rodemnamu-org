@@ -1,0 +1,15 @@
+# Claude Code / OMC 작업 파일
+CLAUDE.md
+.claude/
+.omc/
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 에디터
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
