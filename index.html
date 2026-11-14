@@ -11,8 +11,21 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/components.css">
   <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/home-notice.css?v=20261114">
+  <script src="/js/home-notice.js?v=20261114" defer></script>
 </head>
 <body>
+  <dialog class="home-notice" id="home-notice" aria-labelledby="home-notice-title" aria-describedby="home-notice-date">
+    <header class="home-notice__header">
+      <h2 id="home-notice-title">추수감사예배 안내</h2>
+      <p id="home-notice-date">11월 15일(주일) · 오후 2시</p>
+    </header>
+    <img class="home-notice__image" src="/assets/img/notices/international-thanksgiving-worship-2026-11-15.png" width="1254" height="1254" alt="청년대학부와 국제유학생사역부가 함께 드리는 International Thanksgiving Day. 2026년 11월 15일 오후 2시 시작, 3시가 아닙니다. 모든 순서는 영어로 진행하며 한국어 자막을 제공합니다.">
+    <footer class="home-notice__actions">
+      <button type="button" data-notice-today>오늘 하루 보지 않기</button>
+      <button type="button" data-notice-close autofocus>닫기 <span aria-hidden="true">×</span></button>
+    </footer>
+  </dialog>
   <div id="site-header"></div>
 
   <main>

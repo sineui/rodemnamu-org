@@ -11,8 +11,21 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/components.css">
   <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/home-notice.css?v=20261114">
+  <script src="/js/home-notice.js?v=20261114" defer></script>
 </head>
 <body>
+  <dialog class="home-notice" id="home-notice" aria-labelledby="home-notice-title" aria-describedby="home-notice-date">
+    <header class="home-notice__header">
+      <h2 id="home-notice-title">Thanksgiving Worship</h2>
+      <p id="home-notice-date">Nov 15 (Sun) · 2 PM</p>
+    </header>
+    <img class="home-notice__image" src="/assets/img/notices/international-thanksgiving-worship-2026-11-15.png" width="1254" height="1254" alt="International Thanksgiving Day: joint worship with the young adults and international student ministries. November 15, 2026 at 2 PM, not 3 PM. Service in English with Korean subtitles.">
+    <footer class="home-notice__actions">
+      <button type="button" data-notice-today>Don't show again today</button>
+      <button type="button" data-notice-close autofocus>Close <span aria-hidden="true">×</span></button>
+    </footer>
+  </dialog>
   <div id="site-header"></div>
 
   <main>
